@@ -1,1 +1,0 @@
-# mechardo3D
