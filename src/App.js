@@ -1,22 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 
- import React from "react";
- import ReactDOM from "react-dom";
+import React from "react";
+import ReactDOM from "react-dom";
 
 function App() {
-  return (
-	    <div>
-	    <h1> 
-	    	Troliado puto 
-	    </h1>
-	    <img 
-      	src="https://i.ytimg.com/vi/A9qMVMXHsBU/hqdefault.jpg"
-      	alt="Troliado"
-      	/>
-      	</div>
-    
-  );
+    return (
+        <div class="header">
+            <img src=“../resouces/header/logo.png" alt="Smiley face">
+            <p>Impresiones en 3D</p>
+        </div>
+
+    );
 }
 
 export default App;
