@@ -1,17 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 
-import React from "react";
-import ReactDOM from "react-dom";
+ import React from "react";
+ import ReactDOM from "react-dom";
 
 function App() {
-    return (
-        <div class="header">
-            <img src=“../resouces/header/logo.png" alt="Smiley face">
-            <p>Impresiones en 3D</p>
-        </div>
-
-    );
+  return (
+    <div>
+	    <img  src='/header/logo.png' alt="logo" 	/>
+        <h1> Impresiones en 3D </h1>
+  	</div>    
+  );
 }
 
 export default App;
